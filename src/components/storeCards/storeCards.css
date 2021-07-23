@@ -1,0 +1,32 @@
+.store-card .card-text {
+  font-size: 14px !important;
+  color: rgb(81, 81, 216);
+}
+
+.store-card .card-text i {
+  padding: 5px;
+}
+
+.store-card .card-title {
+  color: rgb(15, 13, 22) !important;
+  font-weight: 500;
+}
+
+.store-card .card {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(15, 13, 22, 0.08), 0 0 6px rgba(15, 13, 22, 0.5);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.store-card .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.store-card {
+  padding: 10px;
+}

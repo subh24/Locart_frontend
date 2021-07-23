@@ -1,0 +1,12 @@
+.category-card {
+  width: 7rem;
+  height: 100%;
+}
+
+.category-card-text {
+  font-size: 14px !important;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  color: #343a40;
+}

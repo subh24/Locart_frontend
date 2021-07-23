@@ -1,0 +1,33 @@
+.carousel-indicators li {
+  background-color: #e3e3e3;
+  height: 7px;
+  width: 7px;
+  z-index: 5 !important;
+  margin: 0 7px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.carousel-indicators li.active {
+  background-color: #ffffff;
+  height: 7px;
+  width: 7px;
+  z-index: 5 !important;
+  padding: 0 7px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.carousel-item,
+.carousel-item.active {
+  align-items: center;
+}
+
+.carousel-item {
+  max-height: 400px;
+  max-width: 100%;
+}
+
+.carousel-item img {
+  max-height: 400px;
+  max-width: 100%;
+}

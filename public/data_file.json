@@ -1,0 +1,423 @@
+{
+    "categories": [{
+            "name": "Grocery",
+            "image": "grocery.png"
+        }, {
+            "name": "Mobile",
+            "image": "mobiles.png"
+        }, {
+            "name": "Fashion",
+            "image": "fashion.png"
+        }, {
+            "name": "Electronics",
+            "image": "electronics.png"
+        }, {
+            "name": "Beauty",
+            "image": "cosmetics.png"
+        }, {
+            "name": "Food",
+            "image": "foods.png"
+        }
+    ],
+    "stores": [{
+            "shopid": "110",
+            "name": "Big Market",
+            "image": "bigMarket.jpg",
+            "category": ["Grocery", "Fashion", "Stationery"],
+            "address": "R5 Kirtan Plaza MG Road Bangalore 562101",
+            "ratings": 4.9,
+            "inventory": {
+                "Grocery": [{
+                        "Name": "Aashirvaad Aata",
+                        "Price": 50
+                    }, {
+                        "Name": "Basmati Rice",
+                        "Price": 60
+                    }, {
+                        "Name": "Mustard Oil",
+                        "Price": 70
+                    }, {
+                        "Name": "Safola Refined Oil",
+                        "Price": 40
+                    }, {
+                        "Name": "Vedaka Sugar",
+                        "Price": 80
+                    }, {
+                        "Name": "Tata Salt",
+                        "Price": 90
+                    }
+                ],
+                "Fashion": [{
+                        "Name": "Peter England Trouser",
+                        "Price": 550
+                    }, {
+                        "Name": "Peter England T-Shirt",
+                        "Price": 660
+                    }, {
+                        "Name": "Indian Garage Pullover",
+                        "Price": 870
+                    }, {
+                        "Name": "Socks",
+                        "Price": 940
+                    }, {
+                        "Name": "Thermocoat",
+                        "Price": 1180
+                    }, {
+                        "Name": "Polo T-Shirt",
+                        "Price": 1190
+                    }
+                ],
+                "Stationery": [{
+                        "Name": "Pen",
+                        "Price": 10
+                    }, {
+                        "Name": "Pencil",
+                        "Price": 5
+                    }, {
+                        "Name": "Eraser",
+                        "Price": 10
+                    }, {
+                        "Name": "Pencil Sharpener",
+                        "Price": 10
+                    }, {
+                        "Name": "Notebook",
+                        "Price": 30
+                    }, {
+                        "Name": "Ruler 15cm",
+                        "Price": 10
+                    }
+                ]
+            }
+        }, {
+            "shopid": "120",
+            "name": "Taco Bell",
+            "image": "bigMarket.jpg",
+            "category": ["Tacos", "Burritos", "Chalupa"],
+            "address": "Indiranagar Bangalore 562102",
+            "ratings": 4.6,
+            "inventory": {
+                "Tacos": [{
+                        "Name": "Naked Chicken Taco Meal",
+                        "Price": 299
+                    }, {
+                        "Name": "Naked Chicken Taco",
+                        "Price": 169
+                    }, {
+                        "Name": "Crunchy Taco Grilled Chicken",
+                        "Price": 95
+                    }, {
+                        "Name": "Crunchy Taco Mexican Chicken",
+                        "Price": 95
+                    }, {
+                        "Name": "Crunchy Taco Pinto Bean",
+                        "Price": 85
+                    }, {
+                        "Name": "Crunchy Taco Fajita Veg",
+                        "Price": 85
+                    }
+                ],
+                "Burritos": [{
+                        "Name": "7 Layer Burrito Meal - Non Veg",
+                        "Price": 389
+                    }, {
+                        "Name": "7 Layer Burrito Veg Meal",
+                        "Price": 369
+                    }, {
+                        "Name": "Clasic Burrito Meal - Non Veg",
+                        "Price": 349
+                    }, {
+                        "Name": "Clasic Burrito Meal - Veg",
+                        "Price": 329
+                    }, {
+                        "Name": "Tikka Masala Burrito Meal - Non Veg",
+                        "Price": 289
+                    }, {
+                        "Name": "Tikka Masala Burrito Meal - Veg",
+                        "Price": 279
+                    }
+                ],
+                "Chalupa": [{
+                        "Name": "Chalupa Non Veg Meal",
+                        "Price": 279
+                    }, {
+                        "Name": "Chalupa Veg Meal",
+                        "Price": 269
+                    }, {
+                        "Name": "Chalupa - Non Veg",
+                        "Price": 149
+                    }, {
+                        "Name": "Chalupa - Veg",
+                        "Price": 139
+                    }
+                ]
+            }
+        }, {
+            "shopid": "130",
+            "name": "Vishal Mega Mart",
+            "image": "bigMarket.jpg",
+            "category": ["Grocery", "Fashion", "Stationery"],
+            "address": "Koramangala Bangalore 562101",
+            "ratings": 3.5,
+            "inventory": {
+                "Grocery": [{
+                        "Name": "Aashirvaad Aata",
+                        "Price": 50
+                    }, {
+                        "Name": "Basmati Rice",
+                        "Price": 60
+                    }, {
+                        "Name": "Mustard Oil",
+                        "Price": 70
+                    }, {
+                        "Name": "Safola Refined Oil",
+                        "Price": 40
+                    }, {
+                        "Name": "Vedaka Sugar",
+                        "Price": 80
+                    }, {
+                        "Name": "Tata Salt",
+                        "Price": 90
+                    }
+                ],
+                "Fashion": [{
+                        "Name": "Peter England Trouser",
+                        "Price": 550
+                    }, {
+                        "Name": "Peter England T-Shirt",
+                        "Price": 660
+                    }, {
+                        "Name": "Indian Garage Pullover",
+                        "Price": 870
+                    }, {
+                        "Name": "Socks",
+                        "Price": 940
+                    }, {
+                        "Name": "Thermocoat",
+                        "Price": 1180
+                    }, {
+                        "Name": "Polo T-Shirt",
+                        "Price": 1190
+                    }
+                ],
+                "Stationery": [{
+                        "Name": "Pen",
+                        "Price": 10
+                    }, {
+                        "Name": "Pencil",
+                        "Price": 5
+                    }, {
+                        "Name": "Eraser",
+                        "Price": 10
+                    }, {
+                        "Name": "Pencil Sharpener",
+                        "Price": 10
+                    }, {
+                        "Name": "Notebook",
+                        "Price": 30
+                    }, {
+                        "Name": "Ruler 15cm",
+                        "Price": 10
+                    }
+                ]
+            }
+        }, {
+            "shopid": "140",
+            "name": "Croma Stores",
+            "image": "bigMarket.jpg",
+            "category": ["Mobiles", "Home Appliances", "Kitchen Appliances"],
+            "address": "Madivala Bangalore 562101",
+            "ratings": 4.3,
+            "inventory": {
+                "Mobiles": [{
+                        "Name": "OnePlus 7 Pro",
+                        "Price": 49999
+                    }, {
+                        "Name": "OnePlus 7T",
+                        "Price": 45999
+                    }, {
+                        "Name": "OnePlus 9 Pro",
+                        "Price": 64999
+                    }, {
+                        "Name": "OnePlus 8 Pro",
+                        "Price": 59999
+                    }
+                ],
+                "Kitchen Appliances": [{
+                        "Name": "Refrigerator",
+                        "Price": 25000
+                    }, {
+                        "Name": "Microwave oven",
+                        "Price": 21599
+                    }, {
+                        "Name": "Induction Stove",
+                        "Price": 2500
+                    }, {
+                        "Name": "Mixer Grinder",
+                        "Price": 3180
+                    }
+                ],
+                "Home Appliances": [{
+                        "Name": "Air Conditioner",
+                        "Price": 41599
+                    }, {
+                        "Name": "Fan",
+                        "Price": 2169
+                    }, {
+                        "Name": "Door Bell",
+                        "Price": 659
+                    }, {
+                        "Name": "Cooler",
+                        "Price": 6500
+                    }
+                ]
+            }
+        }, {
+            "shopid": "150",
+            "name": "SJ Bazaar",
+            "image": "bigMarket.jpg",
+            "category": ["Grocery", "Stationery"],
+            "address": "Chandapura Bangalore 562101",
+            "ratings": 4.1,
+            "inventory": {
+                "Grocery": [{
+                        "Name": "Aashirvaad Aata",
+                        "Price": 50
+                    }, {
+                        "Name": "Basmati Rice",
+                        "Price": 60
+                    }, {
+                        "Name": "Mustard Oil",
+                        "Price": 70
+                    }, {
+                        "Name": "Safola Refined Oil",
+                        "Price": 40
+                    }, {
+                        "Name": "Vedaka Sugar",
+                        "Price": 80
+                    }, {
+                        "Name": "Tata Salt",
+                        "Price": 90
+                    }
+                ],
+                "Stationery": [{
+                        "Name": "Pen",
+                        "Price": 10
+                    }, {
+                        "Name": "Pencil",
+                        "Price": 5
+                    }, {
+                        "Name": "Eraser",
+                        "Price": 10
+                    }, {
+                        "Name": "Pencil Sharpener",
+                        "Price": 10
+                    }, {
+                        "Name": "Notebook",
+                        "Price": 30
+                    }, {
+                        "Name": "Ruler 15cm",
+                        "Price": 10
+                    }
+                ]
+            }
+        }, {
+            "shopid": "160",
+            "name": "Family V-Mart",
+            "image": "bigMarket.jpg",
+            "category": ["Grocery", "Stationery"],
+            "address": "Iggaluru Bangalore 562101",
+            "ratings": 3.7,
+            "inventory": {
+                "Grocery": [{
+                        "Name": "Aashirvaad Aata",
+                        "Price": 50
+                    }, {
+                        "Name": "Basmati Rice",
+                        "Price": 60
+                    }, {
+                        "Name": "Mustard Oil",
+                        "Price": 70
+                    }, {
+                        "Name": "Safola Refined Oil",
+                        "Price": 40
+                    }, {
+                        "Name": "Vedaka Sugar",
+                        "Price": 80
+                    }, {
+                        "Name": "Tata Salt",
+                        "Price": 90
+                    }
+                ],
+                "Stationery": [{
+                        "Name": "Pen",
+                        "Price": 10
+                    }, {
+                        "Name": "Pencil",
+                        "Price": 5
+                    }, {
+                        "Name": "Eraser",
+                        "Price": 10
+                    }, {
+                        "Name": "Pencil Sharpener",
+                        "Price": 10
+                    }, {
+                        "Name": "Notebook",
+                        "Price": 30
+                    }, {
+                        "Name": "Ruler 15cm",
+                        "Price": 10
+                    }
+                ]
+            }
+        }, {
+            "shopid": "170",
+            "name": "SLV Shop",
+            "image": "bigMarket.jpg",
+            "category": ["Snacks", "Beverages"],
+            "address": "Attibele Bangalore 562101",
+            "ratings": 3.8,
+            "inventory": {
+                "Snacks": [{
+                        "Name": "Lays",
+                        "Price": 10
+                    }, {
+                        "Name": "Kurkure",
+                        "Price": 10
+                    }, {
+                        "Name": "Cheetos",
+                        "Price": 10
+                    }, {
+                        "Name": "Cornitos",
+                        "Price": 10
+                    }, {
+                        "Name": "Bourbon Biscuit",
+                        "Price": 20
+                    }, {
+                        "Name": "MilkBikis Cream Biscuit",
+                        "Price": 20
+                    }
+                ],
+                "Beverages": [{
+                        "Name": "Soda",
+                        "Price": 15
+                    }, {
+                        "Name": "Tea",
+                        "Price": 10
+                    }, {
+                        "Name": "Coffee",
+                        "Price": 10
+                    }, {
+                        "Name": "Lemon Tea",
+                        "Price": 10
+                    }, {
+                        "Name": "Horlicks",
+                        "Price": 12
+                    }, {
+                        "Name": "BournVita",
+                        "Price": 12
+                    }
+                ]
+            }
+        }
+    ]
+}

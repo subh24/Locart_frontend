@@ -1,0 +1,41 @@
+#user-account .dropdown-toggle::after {
+  content: none !important;
+}
+
+#user-account .dropdown-toggle {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+}
+
+.user-icons {
+  font-size: medium;
+  color: #0f0d16;
+}
+
+.user-icons i {
+  margin: 0 8px 0 5px;
+}
+
+.user-dropdown {
+  color: #0f0d16;
+}
+
+.dropdown-item {
+  color: #0f0d16 !important;
+}
+
+.dropdown-item:active {
+  background-color: rgb(15, 13, 22, 0.3) !important;
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(15, 13, 22, 0.1) !important;
+  color: #fff;
+}
+
+.login-button {
+  border-radius: 6px !important;
+}
