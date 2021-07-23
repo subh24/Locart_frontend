@@ -1,45 +1,35 @@
-.outer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
-}
-
-.inner {
-  width: 450px;
-  margin: auto;
-  background: #ffffff;
-  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
-  padding: 40px 55px 45px 55px;
-  border-radius: 15px;
-  transition: all 0.3s;
-}
-
-.outer .form-control:focus {
-  border-color: #167bff;
-  box-shadow: none;
-}
-
-.outer h3 {
-  text-align: center;
-  margin: 0;
-  line-height: 1;
+#loginForm {
+  background-color: rgb(15, 13, 22);
+  padding: 75px;
+  color: #fff;
+  border-radius: 16px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 20px;
 }
 
-.custom-control-label {
-  font-weight: 400;
+.login-window {
+  padding: 100px;
+  text-align: center;
+  height: 839px;
 }
 
-.forgot-password,
-.forgot-password a {
-  text-align: right;
-  font-size: 13px;
-  padding-top: 10px;
-  color: #7f7d7d;
-  margin: 0;
+.login-window .form-group {
+  text-align: left !important;
 }
 
-.forgot-password a {
-  color: #167bff;
+.login-button {
+  margin: 30px;
+  background-color: #fff;
+  color: rgb(15, 13, 22);
+  font-weight: 800;
+}
+
+.custom-checkbox {
+  padding-top: 20px;
+}
+
+customCheck1 {
+  margin: 2px;
 }

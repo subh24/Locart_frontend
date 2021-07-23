@@ -91,7 +91,7 @@
         }, {
             "shopid": "120",
             "name": "Taco Bell",
-            "image": "bigMarket.jpg",
+            "image": "tacobell.jpg",
             "category": ["Tacos", "Burritos", "Chalupa"],
             "address": "Indiranagar Bangalore 562102",
             "ratings": 4.6,
@@ -154,7 +154,7 @@
         }, {
             "shopid": "130",
             "name": "Vishal Mega Mart",
-            "image": "bigMarket.jpg",
+            "image": "vishal.jpg",
             "category": ["Grocery", "Fashion", "Stationery"],
             "address": "Koramangala Bangalore 562101",
             "ratings": 3.5,
@@ -223,7 +223,7 @@
         }, {
             "shopid": "140",
             "name": "Croma Stores",
-            "image": "bigMarket.jpg",
+            "image": "chroma.jpg",
             "category": ["Mobiles", "Home Appliances", "Kitchen Appliances"],
             "address": "Madivala Bangalore 562101",
             "ratings": 4.3,
@@ -274,7 +274,7 @@
         }, {
             "shopid": "150",
             "name": "SJ Bazaar",
-            "image": "bigMarket.jpg",
+            "image": "sjbazaar.jpg",
             "category": ["Grocery", "Stationery"],
             "address": "Chandapura Bangalore 562101",
             "ratings": 4.1,
@@ -322,7 +322,7 @@
             }
         }, {
             "shopid": "160",
-            "name": "Family V-Mart",
+            "name": "vfamily",
             "image": "bigMarket.jpg",
             "category": ["Grocery", "Stationery"],
             "address": "Iggaluru Bangalore 562101",
@@ -372,7 +372,7 @@
         }, {
             "shopid": "170",
             "name": "SLV Shop",
-            "image": "bigMarket.jpg",
+            "image": "slv.jpg",
             "category": ["Snacks", "Beverages"],
             "address": "Attibele Bangalore 562101",
             "ratings": 3.8,

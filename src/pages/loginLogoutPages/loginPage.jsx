@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Form } from "react-bootstrap";
 import { useHistory,generatePath } from 'react-router';
+import './loginLogoutPages.css'
 
 export default function Login(){
     const history = useHistory();
@@ -12,7 +13,7 @@ export default function Login(){
    
         
         return (
-            <div className='container'>
+            <div className='container login-window'>
                 <Form onSubmit={handleSubmit} id="loginForm">
 
                 <h3>Log in</h3>
@@ -34,7 +35,7 @@ export default function Login(){
                     </div>
                 </div>
 
-                <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button>
+                <button type="submit" className="btn btn-dark btn-lg btn-block login-button">Sign In</button>
                 
             </Form></div>
         );
